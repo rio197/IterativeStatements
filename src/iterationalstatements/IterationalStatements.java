@@ -16,10 +16,10 @@ public class IterationalStatements {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int i=1;
-        for(; i<=5;) {
+        int i = 1;
+        do {
             System.out.println("Java");
             i++;
-        }
+        } while (i <= 5);
     }    
 }
