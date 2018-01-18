@@ -16,6 +16,8 @@ public class IterationalStatements {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    }
-    
+        for (int i = 1; i <= 5; i = i + 1) {
+            System.out.println("Java");
+        }
+    }    
 }
